@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() 
+    int number = 25;    
+    float decimal = 12.75; 
+    char letter = 'A';      
+    printf("Integer value: %d\n", number);
+    printf("Float value: %.2f\n", decimal);
+    printf("Character value: %c\n", letter);
+
+    return 0;
+}
